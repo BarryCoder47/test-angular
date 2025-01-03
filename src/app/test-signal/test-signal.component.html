@@ -1,0 +1,17 @@
+<h1>Dog Libary</h1>
+<h5>Watch every Dog</h5>
+<div>
+  <img src="{{postData?.message}}" style="width: 300px; height: 300px;" />
+</div>
+<br>
+<button (click)="refreshData()">Refresh</button>
+
+<br><br>
+<div class="card flex justify-center">
+    <p-button label="Check" />
+</div>
+<br>
+<p-floatlabel>
+  <input id="username" pInputText [(ngModel)]="value" />
+  <label for="username">Username</label>
+</p-floatlabel>
